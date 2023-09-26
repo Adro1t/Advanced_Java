@@ -3,7 +3,6 @@ final class ABC {
 
 	void method() {
 		System.out.println("Hello");
-		System.out.println("data= " + a);
 	}
 
 	static {
@@ -25,4 +24,4 @@ public class FinalProperty {
 //Final classes can be instantiated.
 //Final variables cannot be modified,i.e. constant.
 //Final variables can be initialized inside constructor.
-//Final and static variables can be initialized within static
+//Final and static varibales can be initialized within static

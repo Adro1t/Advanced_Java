@@ -3,7 +3,6 @@ final class ABC {
 
 	void method() {
 		System.out.println("Hello");
-		System.out.println("data= " + a);
 	}
 
 	static {
