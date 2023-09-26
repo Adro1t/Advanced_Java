@@ -1,0 +1,12 @@
+class Student {
+
+}
+
+public class InterfaceProperties extends Student {
+
+	public static void main(String[] args) {
+		Student st = new Student();
+
+	}
+
+}

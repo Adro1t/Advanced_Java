@@ -1,0 +1,20 @@
+class Outer {
+	int data;
+
+	void display() {
+
+	}
+
+	// member class of outer class
+	class Inner {
+
+	}
+}
+
+public class InnerClassDemo {
+
+	public static void main(String[] args) {
+
+	}
+
+}

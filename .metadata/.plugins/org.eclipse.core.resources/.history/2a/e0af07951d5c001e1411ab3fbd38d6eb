@@ -1,0 +1,18 @@
+abstract class AnnonymousInner {
+	abstract void display();
+}
+
+public class AnonymousInnerClass {
+
+	public static void main(String[] args) {
+		AnonymousInner inner = new AnnonymousInner() {
+
+			@Override
+			void display() {
+				// TODO Auto-generated method stub
+
+			}
+		};
+	}
+
+}

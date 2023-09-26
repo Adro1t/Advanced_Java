@@ -1,0 +1,25 @@
+interface Student {
+	void method();// signature or prototype
+}
+
+//abstract class Student{
+//	abstract void method();
+//}
+
+//class inheritance = extends
+//interface inheritance = implements
+
+public class InterfaceProperties implements Student {
+
+	public static void main(String[] args) {
+//		Student st = new Student();
+
+	}
+
+	// added unimplemented method
+	@Override
+	public void method() {
+
+	}
+
+}
