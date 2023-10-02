@@ -1,0 +1,6 @@
+package packageTwo;
+import packageOne.ProtectionLevel;
+
+public class DifferentPackageSubClass extends ProtectionLevel {
+
+}

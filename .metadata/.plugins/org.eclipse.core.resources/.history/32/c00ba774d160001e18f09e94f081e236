@@ -1,0 +1,9 @@
+package packageOne;
+
+public class SamePackageSubClass extends ProtectionLevel{
+
+	public static void main(String[] args) {
+
+	}
+
+}

@@ -1,0 +1,36 @@
+package InheritancePackage;
+
+class Car {
+	final int no_of_wheels = 4;
+
+	public Car() {
+		System.out.println("Car Constructor");
+	}
+
+	void vehicleType() {
+		System.out.println("Car Type");
+	}
+}
+
+class Maruti extends Car {
+	public Maruti() {
+
+		System.out.println("Maruti Constructor");
+	}
+
+@Override
+public void vehicle
+	{
+	}
+}
+
+class Maruti800 extends Maruti {
+
+}
+
+public class MultiLevelInheritance {
+
+	public static void main(String[] args) {
+
+	}
+}

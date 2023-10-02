@@ -1,0 +1,12 @@
+package packageOne;
+
+public class SamePackageNonSubClass {
+	ProtectionLevel pl = new ProtectionLevel();
+
+	public SamePackageNonSubClass() {
+		System.out.println("Default modifier =" + num);
+		System.out.println("Private modifier =" + numpri);
+		System.out.println("Protected modifier =" + numpro);
+		System.out.println("Public modifier =" + numpub);
+	}
+}

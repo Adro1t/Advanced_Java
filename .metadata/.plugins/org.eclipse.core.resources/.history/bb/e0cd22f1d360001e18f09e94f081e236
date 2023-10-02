@@ -1,0 +1,25 @@
+package InheritancePackage;
+
+class Fruit {
+	public Fruit() {
+		System.out.println("Very Good for health");
+	}
+	void Taste() {
+		System.out.println("Tastes good");
+	}
+}
+
+class Apple extends Fruit{
+	void Color() {
+		System.out.println("RED | YELLOW | GREEN");
+	}
+}
+
+public class ConceptofInheritance {
+
+	public static void main(String[] args) {
+		new Apple();
+		Apple.Taste();
+	}
+
+}

@@ -1,0 +1,20 @@
+package InheritancePackage;
+
+class Car{
+	final int no_of_wheels=4;
+	public Car() {
+		System.out.println("Car Constructor");
+	}
+	void vehicleType() {
+		System.out.println("Car Type");
+	}
+}
+
+public class MultiLevelInheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

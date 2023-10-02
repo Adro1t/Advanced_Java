@@ -1,0 +1,19 @@
+package InheritancePackage;
+
+class Room {
+	int length, breadth;
+
+	public Room(int length, int breadth) {
+		this.length = length;
+		this.breadth = breadth;
+	}
+}
+
+public class SingleInheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

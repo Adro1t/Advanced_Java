@@ -1,0 +1,13 @@
+package packageOne;
+
+public class ProtectionLevel {
+	int num = 10;
+	private int numpri = 20;
+	protected int numpro = 30;
+	public int numpub = 40;
+
+	public ProtectionLevel() {
+
+	}
+
+}

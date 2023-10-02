@@ -1,0 +1,17 @@
+package packageOne;
+
+public class ProtectionLevel {
+	int num = 10;
+	private int numpri = 20;
+	protected int numpro = 30;
+	public int numpub = 40;
+
+	public ProtectionLevel() {
+		System.out.println("Default ="+num);
+		System.out.println("Private ="+numpri);
+		System.out.println("Protected ="+numpro);
+		System.out.println("Public ="+numpub);	
+	}
+	
+
+}
