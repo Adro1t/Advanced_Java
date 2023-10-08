@@ -3,4 +3,6 @@
     <fullyQualifiedTypeName name="Outer.Inner"/>
     <fullyQualifiedTypeName name="java.text.Annotation"/>
     <fullyQualifiedTypeName name="AnnonymousInner"/>
+    <fullyQualifiedTypeName name="packageOne.ProtectionLevel"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>

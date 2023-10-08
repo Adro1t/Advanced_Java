@@ -1,0 +1,31 @@
+package multithreadingPackage;
+
+class Good {
+	void display() {
+		for (int i = 1; i <= 5; i++) {
+			System.out.println("Good");
+
+			try {
+				Thread.sleep(1000); // 1 second
+			} catch (InterruptedException e) {
+
+			}
+		}
+	}
+}
+
+class Morning {
+	void display() {
+		for (int i = 1; i <= 5; i++) {
+			System.out.println("Good");
+		}
+	}
+}
+
+public class ConceptOfMultithreading {
+
+	public static void main(String[] args) {
+
+	}
+
+}
