@@ -1,0 +1,25 @@
+package multithreadingPackage;
+
+class Thread1 extends Thread {
+	CSITBook cb;
+	int seats;
+
+	public Thread1(CSITBook cb, int seats) {
+		this.seats = seats;
+		this.cb = cb;
+	}
+
+	@Override
+	public void run() {
+		cb.book(seats);
+	}
+}
+
+public class StaticSynchronization {
+
+	public static void main(String[] args) {
+		CSITBook b1 = new CSITBook();
+
+	}
+
+}

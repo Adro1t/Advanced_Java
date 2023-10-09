@@ -1,0 +1,20 @@
+package multithreadingPackage;
+
+class Thread1 extends Thread {
+	CSITBook cb;
+	int seats;
+
+	public Thread1(CSITBook cb, int seats) {
+		this.seats = seats;
+		this.cb = cb;
+	}
+}
+
+public class StaticSynchronization {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
