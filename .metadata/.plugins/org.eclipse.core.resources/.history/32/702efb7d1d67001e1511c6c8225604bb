@@ -1,0 +1,24 @@
+package FilePackage;
+
+import java.io.Serializable;
+
+class Student implements Serializable {
+	String name;
+	int age;
+	String gender;
+
+	public Student(String name, int age, String gender) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+}
+
+public class ReadingWritingFileObjects {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

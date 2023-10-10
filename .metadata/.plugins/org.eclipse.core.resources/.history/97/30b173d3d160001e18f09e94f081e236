@@ -1,9 +1,0 @@
-package packageOne;
-
-public class SamePackageNonSubClass {
-	ProtectionLevel pl=new ProtectionLevel();
-	
-	public SamePackageNonSubClass() {
-		
-	}
-}

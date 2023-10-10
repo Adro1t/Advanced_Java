@@ -1,0 +1,29 @@
+package FilePackage;
+
+import java.io.Serializable;
+
+class Student implements Serializable {
+	String name;
+	int age;
+	String gender;
+
+	public Student(String name, int age, String gender) {
+		this.name = name;
+		this.age = age;
+		this.gender = gender;
+	}
+
+	public String toStringfy() {
+		return "Name = " + name + ", Age = " + age + ", Gender = " + gender;
+	}
+}
+
+public class ReadingWritingFileObjects {
+
+	public static void main(String[] args) {
+		Student s1 = new Student("A", 23, "Male");
+		Student s2 = new Student("B", 21, "Female");
+
+	}
+
+}

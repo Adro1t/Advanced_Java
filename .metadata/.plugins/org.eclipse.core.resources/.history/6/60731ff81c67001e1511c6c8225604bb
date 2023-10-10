@@ -1,0 +1,14 @@
+package FilePackage;
+
+class Student{
+	
+}
+
+public class ReadingWritingFileObjects {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
